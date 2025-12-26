@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  /* background-color: #f2f2f2; */
+}
+
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.bg-gray-100 {
+  background-color: oklch(96.7% 0.003 264.542);
+}
+
+.bg-gray-50 {
+  background-color: oklch(98.5% 0.002 247.839);
+}
+
+.bg-gray-50 {
+  background-color: var(--color-gray-50);
+}
+
+.border-gray-100 {
+  border-color: oklch(96.7% 0.003 264.542);
+}
+
+.border {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+}
+
+.text-gray-600 {
+  color: oklch(44.6% 0.03 256.802);
+}
+
+.text-gray-700 {
+  color: var(--color-gray-700);
+}
+
+.text-gray-900 {
+  color: var(--color-gray-900);
+}
+
+@media (hover: hover) {
+  .hover\:text-orange-400:hover {
+    color: var(--color-orange-400);
+  }
+}
+
+.border-b {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1px;
+}
+
+.bg-orange-100 {
+  background-color: var(--color-orange-100);
+}
+
+.text-emerald-600 {
+  color: var(--color-emerald-600);
+}
+
+.text-gray-500 {
+  color: var(--color-gray-500);
+}
+
+.text-xl {
+  font-size: var(--text-xl);
+  line-height: var(--tw-leading, var(--text-xl--line-height));
+}
+
+.bg-emerald-700 {
+  background-color: var(--color-emerald-700);
+}
+
+.dark\:bg-zinc-700:is(.dark *) {
+  background-color: var(--color-zinc-700);
+}
+
+.dark\:bg-zinc-800:is(.dark *) {
+  background-color: var(--color-zinc-800);
+}
+
+.dark\:bg-zinc-900:is(.dark *) {
+  background-color: var(--color-zinc-900);
+}
+
+.dark\:bg-zinc-800:is(.dark *) {
+  background-color: var(--color-zinc-800);
+}
+
+.dark\:text-zinc-800:is(.dark *) {
+  color: var(--color-zinc-800);
+}
+
+.dark\:hover\:bg-zinc-600:is(.dark *):hover {
+  background-color: var(--color-zinc-600);
+}
+.dark\:hover\:bg-zinc-800:is(.dark *):hover {
+  background-color: var(--color-zinc-800);
+}
+
+.font-medium {
+  --tw-font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-medium);
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a),
+    0 1px 2px -1px var(--tw-shadow-color, #0000001a);
+}
+
+.shadow-md,
+.shadow-sm {
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow),
+    var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+}
+
+.hr-line {
+  border-width: 0;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 1px !important;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+.font-semibold {
+  --tw-font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold);
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.br-50 {
+  border-radius: 50px;
+}
+
+.br-99 {
+  border-radius: 99px;
+}
+
+.fs-11 {
+  font-size: 11px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+@media (min-width: 64rem) {
+  .lg\:text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+
+  .lg\:text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+}
+
+@media (hover: hover) {
+  .hover\:border-emerald-500:hover {
+    border-color: var(--color-emerald-500);
+  }
+}
+
+/* Bootstrap styles */
+.h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 2.5rem;
+  }
+}
+.h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .h2 {
+    font-size: 2rem;
+  }
+}
+.h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  .h3 {
+    font-size: 1.75rem;
+  }
+}
+.h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .h4 {
+    font-size: 1.5rem;
+  }
+}
+.h5 {
+  font-size: 1.25rem;
+}
+.h6 {
+  font-size: 1rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    #e5e7eb 25%,
+    #f3f4f6 37%,
+    #e5e7eb 63%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 1.6s infinite linear;
+}
