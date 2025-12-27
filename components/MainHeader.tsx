@@ -90,19 +90,16 @@ export default function MainHeader() {
               </div>
             </div>
             <div className="lg:relative lg:z-10 sm:flex sm:items-center hidden">
-              <button
-                type="button"
-                className="relative flex-shrink-0 rounded-full text-gray-200 p-1 mx-2 hover:text-white focus:outline-none"
+              <Link
+                className="relative flex-shrink-0 rounded-full text-gray-200 p-1 mx-2 hover:text-white focus:outline-none" href="/my-cart"
               >
                 <i className="fa fa-shopping-cart"></i>
-              </button>
-              <button
-                type="button"
-                aria-label="Notification"
-                className="relative flex-shrink-0 rounded-full text-gray-200 p-1 mx-2 hover:text-white focus:outline-none"
+              </Link>
+              <Link
+                className="relative flex-shrink-0 rounded-full text-gray-200 p-1 mx-2 hover:text-white focus:outline-none" href="/checkout"
               >
                 <i className="fa fa-bell"></i>
-              </button>
+              </Link>
               <span
                 className="mx-4 h-6 w-px bg-gray-200 lg:mx-6"
                 aria-hidden="true"
@@ -111,7 +108,7 @@ export default function MainHeader() {
                 <div className="relative">
                   <Link
                     className="-m-1.5 flex items-center p-1.5 text-gray-200"
-                    href="/login"
+                    href="/dashboard"
                   >
                     <span className="sr-only">Open user menu</span>
                     <i className="fa fa-user"></i>
